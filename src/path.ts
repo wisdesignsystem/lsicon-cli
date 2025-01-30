@@ -9,3 +9,7 @@ export const rootPath = path.resolve(__dirname, "..");
 export const runtimePath = process.cwd();
 
 export const cliPackagePath = path.resolve(rootPath, "package.json");
+
+export const appPackagePath = path.resolve(runtimePath, "package.json");
+
+export const iconComponentsPath = path.resolve(runtimePath, "components");
